@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\node.exe',
+1 verbose cli   'D:\\Program Files\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'watch-client' ]
+2 info using npm@3.7.3
+3 info using node@v5.8.0
+4 verbose run-script [ 'prewatch-client', 'watch-client', 'postwatch-client' ]
+5 info lifecycle craftschina@~prewatch-client: craftschina@
+6 silly lifecycle craftschina@~prewatch-client: no script for prewatch-client, continuing
+7 info lifecycle craftschina@~watch-client: craftschina@
+8 verbose lifecycle craftschina@~watch-client: unsafe-perm in lifecycle true
+9 verbose lifecycle craftschina@~watch-client: PATH: D:\Program Files\node_modules\npm\bin\node-gyp-bin;E:\yp_react\node_modules\.bin;D:\Program Files;D:\Program Files\node_modules\npm\bin\node-gyp-bin;E:\yp_react\node_modules\.bin;D:\Program Files;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\;C:\Users\Liu\AppData\Roaming\npm
+10 verbose lifecycle craftschina@~watch-client: CWD: E:\yp_react
+11 silly lifecycle craftschina@~watch-client: Args: [ '/d /s /c', 'better-npm-run watch-client' ]
+12 silly lifecycle craftschina@~watch-client: Returned: code: 1073807364  signal: null
+13 info lifecycle craftschina@~watch-client: Failed to exec watch-client script
+14 verbose stack Error: craftschina@ watch-client: `better-npm-run watch-client`
+14 verbose stack Exit status 1073807364
+14 verbose stack     at EventEmitter.<anonymous> (D:\Program Files\node_modules\npm\lib\utils\lifecycle.js:239:16)
+14 verbose stack     at emitTwo (events.js:100:13)
+14 verbose stack     at EventEmitter.emit (events.js:185:7)
+14 verbose stack     at ChildProcess.<anonymous> (D:\Program Files\node_modules\npm\lib\utils\spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:100:13)
+14 verbose stack     at ChildProcess.emit (events.js:185:7)
+14 verbose stack     at maybeClose (internal/child_process.js:850:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+15 verbose pkgid craftschina@
+16 verbose cwd E:\yp_react
+17 error Windows_NT 6.1.7601
+18 error argv "D:\\Program Files\\node.exe" "D:\\Program Files\\node_modules\\npm\\bin\\npm-cli.js" "run" "watch-client"
+19 error node v5.8.0
+20 error npm  v3.7.3
+21 error code ELIFECYCLE
+22 error craftschina@ watch-client: `better-npm-run watch-client`
+22 error Exit status 1073807364
+23 error Failed at the craftschina@ watch-client script 'better-npm-run watch-client'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the craftschina package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     better-npm-run watch-client
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs craftschina
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls craftschina
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

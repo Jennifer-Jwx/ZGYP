@@ -1,0 +1,39 @@
+.service {
+    width: 92%;
+    padding: 7.35rem 4% 3.8rem;
+    margin: 0 auto;
+    color: #000;
+    background-color: #eeeeee;
+}
+
+.service h1 {
+    text-align: center;
+    font-weight: 100;
+    padding-top: 1rem;
+}
+
+.service p {
+    line-height: 1.44rem;
+    padding-top: 0.8rem;
+}
+.service .butn {
+    margin: 2rem 0 1rem 3.35rem;
+}
+.font_size_c {
+    font-size: 1.2rem;
+}
+.font_size_a {
+    font-size: 0.8rem;
+}
+.all_button {
+    padding: .3rem 1.5rem;
+    background-color: #ff0000;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.all_button:focus {
+    outline: none;
+}

@@ -1,0 +1,21 @@
+.component {
+  min-height: 400px;
+  padding-top: 100px;
+  .warningContainer {
+    text-align: center;
+    width: 100%;
+    .title {
+      font-size: 24px;
+      font-family: "Microsoft YaHei";
+      font-weight: bold;
+      margin-top: 66px;
+    }
+    .content {
+      font-size: 20px;
+      font-family: "Microsoft YaHei";
+      font-weight: bold;
+      color: #ff0000;
+      margin-top: 30px;
+    }
+  }
+}

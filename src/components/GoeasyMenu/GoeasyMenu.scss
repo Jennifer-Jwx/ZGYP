@@ -1,0 +1,302 @@
+.wrap {
+  width: 100%;
+  max-width: 640px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+i {
+  display: block;
+}
+.back {
+  width: 100%;
+  background: #141414;
+  overflow: hidden;
+}
+.w100 {
+  width: 100%;
+}
+.h100 {
+  height: 100%;
+}
+.white {
+  background: #fff;
+}
+.both {
+  clear: both;
+  content:"";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.bg100{
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+footer {
+  position: fixed;
+  @extend .w100;
+  height: 3.7rem;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  menu {
+    @extend .w100;
+    @extend .h100;
+    background: #fff;
+    box-shadow: inset 0 9px 23px -13px #afafaf ;
+    border-top: #dddddd solid 1px;
+    nav {
+      @extend .w100;
+      @extend .h100;
+      a {
+        display: block;
+        @extend .h100;
+        float: left;
+        width: 25%;
+        overflow: hidden;
+        i {
+          width: 3rem;
+          height: 2.5rem;
+          margin: 0.6rem auto 0 auto;
+        }
+        &.tyd {
+          i {
+            background-image:url("http://tupian.goeasy.net:9999/yipinwang/mobile/img/footer_menu_icon1.png");
+            @extend .bg100;
+          }
+        }
+        &.bwg {
+          i {
+            background-image:url("http://tupian.goeasy.net:9999/yipinwang/mobile/img/footer_menu_icon2.png");
+            @extend .bg100;
+          }
+        }
+        &.User {
+          i {
+            background-image:url("http://tupian.goeasy.net:9999/yipinwang/mobile/img/footer_menu_icon3.png");
+            @extend .bg100;
+          }
+        }
+        &.login_let {
+          i {
+            background-image:url("http://tupian.goeasy.net:9999/yipinwang/mobile/img/footer_menu_icon4.png");
+            @extend .bg100;
+          }
+        }
+      }
+    }
+  }
+}
+
+$hui_1:#333;
+header#index_header {
+  background-color: $hui_1;
+  height: 3.7rem;
+  @extend .w100;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  .logo {
+    float: left;
+    width: 6.8rem;
+    height: 2.7rem;
+    background-image: url("http://tupian.goeasy.net:9999/yipinwang/mobile/img/logo.png");
+    @extend .bg100;
+    margin: 0.5rem 0 0 0.7rem;
+  }
+  menu {
+    float: right;
+    margin: 1rem 0 0 0;
+    nav {
+      a{
+        float: right;
+        padding: 0.1rem 0.9rem;
+        &.so_se {
+          border-right: #fff solid 1px;
+          i {
+            background-image: url("http://tupian.goeasy.net:9999/yipinwang/mobile/img/header_so.png");
+            @extend .bg100;
+          }
+        }
+        &.more {
+          i{
+            background-image: url("http://tupian.goeasy.net:9999/yipinwang/mobile/img/header_more.png");
+            @extend .bg100;
+          }
+        }
+        i{
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+.so_box {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: #eeeeee;
+  left: 0;
+  top: 0;
+  border: 0;
+  display: none;
+  .so_header{
+    width: 100%;
+    height: 4.2rem;
+    background: -webkit-linear-gradient(#e4e4e4, #f7f7f6, #e4e4e4);
+    overflow: hidden;
+    & > form > input {
+      margin-top: 0.8rem;
+    }
+    .so {
+      width: 70%;
+      border-radius: 20px;
+      height: 2.6rem;
+      margin: 0.8rem 1rem 0 1rem;
+      background-color: #dcdcdc;
+      box-shadow: inset 0 0 8px 2px #c6c5c5;
+      float: left;
+
+      button {
+        float: right;
+        width: 1.9rem;
+        height: 2.2rem;
+        border: 0;
+        background-color: transparent;
+        overflow: hidden;
+        margin: 0.2rem 0.5rem 0 0;
+        img {
+          @extend .w100;
+          @extend .h100;
+        }
+      }
+      input {
+        border: 0;
+        background-color: transparent;
+        width: 12rem;
+        font-size:1.2rem;
+        margin: 0.7rem .2rem 0 1rem;
+        color: #7e7e7e;
+        line-height: 1.2rem;
+        &::-webkit-input-placeholder{
+          color: #7e7e7e;
+          line-height: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+.so_body {
+  h1 {
+    font-size: 1.2rem;
+    border-bottom: #535353 solid 1px;
+    padding: 1rem 1rem;
+    background-color: white;
+    span {
+
+    }
+  }
+  i {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: .6rem;
+    &.icon_a {
+      background:url("http://tupian.goeasy.net:9999/yipinwang/mobile/img/img/home_icon_1.png");
+      width: 1.2rem;
+      height: 1.6rem;
+      -webkit-background-size: 100% 100%;
+      background-size: 100% 100%;
+    }
+    &.icon_b {
+      background:url("http://tupian.goeasy.net:9999/yipinwang/mobile/img/svg/time.svg");
+      width: 1.5rem;
+      height: 1.5rem;
+      -webkit-background-size: 100% 100%;
+      background-size: 100% 100%;
+    }
+  }
+
+}
+.a_lay_box {
+  padding: 0 1rem;
+  min-height: 10rem;
+  background-color: white;
+  a {
+    padding: .6rem 1rem;
+    border: #535353 solid 1px;
+    display: inline-block;
+    margin: 1rem .5rem 0 0;
+    border-radius: 2rem;
+    color: black;
+    font-size: 1.2rem;
+  }
+}
+.guodu {
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.mt_10{
+  margin-top: 1rem;
+}
+.Wap_padding {
+  padding: 3.7rem 0;
+  max-width: 640px;
+}
+
+#cont {
+  background-color: #474747;
+  width: 100%;
+  display: block;
+  height: 3.55rem;
+  position: fixed;
+  top: 3.7rem;
+  left: 0;
+  z-index: 10;
+}
+
+#cont .cont_ul {
+  line-height: 3.5rem;
+  box-sizing: border-box;
+  padding-left: 0.7rem;
+  float: left;
+}
+
+#cont .cont_ul li {
+  display: inline-block;
+  margin-right: 0.45rem;
+}
+
+#cont .cont_ul li a {
+  height: 2.4rem;
+  padding-right: 0.7rem;
+  background-image: url("http://tupian.goeasy.net:9999/yipinwang/mobile/img/cont_link.jpg");
+  background-repeat: no-repeat;
+  background-position: right 1rem;
+  display: block;
+  color: #ffffff;
+  background-size: 1px 100%;
+}
+
+#cont .cont_ul li a.bg {
+  background: no-repeat;
+}
+
+#cont_back {
+  width: 1.6rem;
+  float: right;
+  margin: 1rem 0.9rem 0 0;
+}
+
+#cont_back img {
+  width: 100%;
+}

@@ -1,0 +1,108 @@
+@charset "GBK";
+.huanye {
+  background: none !important;
+  line-height: 43px;
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+  text-align: center; }
+  .huanye .go {
+    background: transparent;
+    color: #fff;
+    margin: 0; }
+  .huanye input {
+    width: 20px;
+    line-height: 20px; }
+  .huanye a {
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    margin: 8px 10px 0 10px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 12.5px;
+    background-color: #999999;
+    position: relative; }
+  .huanye .col_bl {
+    color: #000 !important; }
+  .huanye .triangle_border_left {
+    width: 0;
+    height: 0;
+    border-width: 6px 6px 6px 0;
+    border-style: solid;
+    border-color: transparent #333 transparent transparent;
+    position: absolute;
+    top: 6px;
+    left: 8px; }
+  .huanye .triangle_border_right {
+    width: 0;
+    height: 0;
+    border-width: 6px 0 6px 6px;
+    border-style: solid;
+    border-color: transparent transparent transparent #333;
+    /*͸�� ͸�� ͸�� ��*/
+    position: absolute;
+    top: 6px;
+    left: 10px; }
+  .huanye .tra_a {
+    left: 13px; }
+  .huanye .tra_b {
+    left: 7px; }
+  .huanye .font_b {
+    font-family: "Microsoft YaHei"; }
+
+.component {
+  line-height: 43px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center; }
+  .component .pagination {
+    margin: 0 auto; }
+    .component .pagination .triangle_border_right {
+      width: 0;
+      height: 0;
+      border-width: 6px 0 6px 6px;
+      border-style: solid;
+      border-color: transparent transparent transparent #333;
+      margin-top: 0px;
+      margin-left: 10px; }
+    .component .pagination .triangle_border_left {
+      width: 0;
+      height: 0;
+      border-width: 6px 6px 6px 0;
+      border-style: solid;
+      border-color: transparent #333 transparent transparent;
+      margin-top: 0px;
+      margin-left: 7px; }
+    .component .pagination li {
+      float: left; }
+      .component .pagination li span {
+        font-size: 14px;
+        color: #fff;
+        display: inline-block;
+        margin: 8px 10px 0 10px;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        border-radius: 12.5px;
+        background-color: #999999;
+        position: relative; }
+      .component .pagination li a {
+        font-size: 14px;
+        color: #fff;
+        display: inline-block;
+        margin: 8px 10px 0 10px;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        border-radius: 12.5px;
+        background-color: #999999;
+        position: relative; }
+        .component .pagination li a:hover {
+          cursor: pointer; }
+  .component .active a {
+    color: red !important; }

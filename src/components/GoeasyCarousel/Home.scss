@@ -1,0 +1,39 @@
+//轮播
+.carousel:hover {
+  .Carousel_side {
+    opacity: 1;
+  }
+}
+
+.Carousel_side {
+  width: 84px;
+  height: 633px;
+  line-height: 99em;
+  overflow: hidden;
+  display: block;
+  top: 0px;
+  background: url(http://tupian.goeasy.net:9999/yipinwang/ad_t.png) no-repeat;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=0);
+  -webkit-transition: all .3s ease;
+}
+
+.Carousel_side_right {
+  right: 0px;
+  background-position-y: -632px;
+}
+
+.dotsClass {
+  margin-bottom: 75px;
+  li {
+    button:before {
+      color: #fff;
+      opacity: 1;
+    }
+    .slick-active button:before {
+      color: red;
+    }
+  }
+}

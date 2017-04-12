@@ -1,0 +1,50 @@
+@charset "UTF-8";
+$hui_1:#333;
+.both {
+  clear: both;
+  content:"";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.Wap_padding {
+  padding: 3.7rem 0;
+  max-width: 640px;
+}
+.bg100{
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.btn_a {
+  font-size:1.1rem;
+  padding: .6rem 1.1rem;
+  border: 0;
+  border-radius: 30px;
+}
+.hui_01 {
+  background-color:#535353;
+  color: #fff;
+}
+.red_01 {
+  background-color:red;
+  color: #fff;
+}
+.w100 {
+  width: 100%;
+}
+.h100 {
+  height: 100%;
+}
+.home_menu1{
+  &:after{
+    @extend .both;
+  }
+  li {
+    width: 50%;
+    float: left;
+    img {
+      @extend .w100;
+    }
+  }
+}

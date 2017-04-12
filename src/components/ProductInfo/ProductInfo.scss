@@ -1,0 +1,256 @@
+.component {
+  margin-top: 7px;
+  margin-right: 9px;
+  float: left;
+  width: 421px;
+  height: 533px;
+  border: none;
+  overflow: hidden;
+  a {
+    dl {
+      border: 1px solid #cccccc;
+      dd {
+        position: relative;
+        height: 421px;
+        img {
+          width: 419px;
+          height: 421px;
+        }
+        .hotorexperience {
+          position: absolute;
+          top: 2px;
+          right: 10px;
+          z-index: 99;
+          width: 65px !important;
+          .hot {
+            position: relative;
+            float: left;
+            margin-top: 7px;
+            z-index: 99;
+            width: 60px !important;
+            height: 60px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hudt {
+  float: left;
+  color: #666666;
+  width: 140px;
+  text-align: right;
+}
+
+.hudt_ta {
+  font-size: 14px;
+  padding-top: 25px;
+  font-family: "Microsoft YaHei";
+}
+
+.hudi {
+  float: right;
+  padding-top: 10px;
+  padding-right: 15px;
+  img {
+    width: 84px;
+    height: 84px;
+    border-radius: 130px;
+  }
+}
+
+.huds {
+  position: absolute;
+  width: 100%;
+  .hud {
+    width: 210px;
+    height: 110px;
+    background: #eeeeee;
+    float: right;
+    .name_all {
+      padding-top: 50px;
+      padding-left: 10px;
+      width: 115px;
+      float: left;
+      h3 {
+        font-weight: 100;
+        font-family: "Microsoft YaHei";
+        font-size: 16px;
+        color: #000000;
+      }
+      .fz_a {
+        padding-left: 15px;
+        padding-top: 3px;
+        font-size: 12px;
+      }
+      .link {
+        width: 100px;
+        height: 2px;
+        background: #000000;
+        margin-top: 3px;
+      }
+      .img_name {
+        width: 76px;
+        height: 76px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: 20px;
+        float: left;
+      }
+    }
+    .img_name {
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-top: 20px;
+      float: left;
+      img {
+        width: 76px !important;
+        height: 76px;
+      }
+    }
+  }
+  .col {
+    background: #e5e5e5;
+  }
+}
+
+.hudd {
+  width: 100%;
+  height: 110px;
+  background: #fff;
+  .hud {
+    width: 140px;
+    background-color: #bf0101;
+    height: 110px;
+    float: left;
+    h4 {
+      padding-top: 5px;
+      padding-left: 8px;
+      padding-right: 7px;
+      float: right;
+      margin-right: 7px;
+      span {
+        font-family: "Microsoft YaHei";
+        font-size: 16px;
+        font-weight: 100;
+        color: #FFFFFF;
+      }
+    }
+    h3 {
+      font-weight: 100;
+      padding-left: 8px;
+      padding-right: 7px;
+      color: #FFFFFF;
+      font-family: "Microsoft YaHei";
+      padding-top: 30px;
+      font-size: 16px;
+      height: 42px;
+      max-height: 42px;
+      overflow: hidden;
+      span {
+        font-family: "Microsoft YaHei";
+        font-size: 16px;
+        font-weight: 100;
+        color: #FFFFFF;
+      }
+    }
+    .typeName {
+      font-size: 14px;
+      padding-top: 3px;
+      height: 20px;
+      line-height: 20px;
+    }
+    .size {
+      padding-top: 3px;
+      font-size: 14px;
+      height: 39px;
+      max-height: 39px;
+    }
+    .price {
+      font-size: 16px;
+      padding-left: 3px;
+    }
+    .customPrice {
+      padding-left: 23px;
+      span {
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+      }
+    }
+  }
+  .secondHud {
+    background-color: #a60202;
+  }
+  .thirdHud {
+    background-color: #960101;
+    width: 139px;
+  }
+}
+
+.mr0 {
+  margin-right: 0 !important;
+}
+
+.w420 {
+  width: 420px !important;
+  img {
+    width: 418px !important;
+  }
+}
+
+@keyframes hon {
+  0% {
+    left: -420px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes hon {
+  0% {
+    left: -420px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+
+.hong {
+  animation: hon 0.5s both;
+  -moz-animation: hon 0.5s both; /* Firefox */
+  -webkit-animation: hon 0.5s both; /* Safari �� Chrome */
+  -o-animation: hon 0.5s both;
+}
+
+@keyframes hond {
+  0% {
+    left: 0px;
+  }
+
+  100% {
+    left: -421px;
+  }
+}
+
+@-webkit-keyframes hond {
+  0% {
+    left: 0px;
+  }
+
+  100% {
+    left: -421px;
+  }
+}
+
+.hongd {
+  animation: hond 0.5s both;
+  -moz-animation: hond 0.5s both; /* Firefox */
+  -webkit-animation: hond 0.5s both; /* Safari �� Chrome */
+  -o-animation: hond 0.5s both;
+}

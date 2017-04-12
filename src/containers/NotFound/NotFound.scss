@@ -1,0 +1,38 @@
+.component {
+  min-height: 400px;
+  padding-top: 100px;
+  .submittedSucess {
+    text-align: center;
+    width: 100%;
+    .submittedSucessTit {
+      font-size: 24px;
+      font-family: "Microsoft YaHei";
+      font-weight: bold;
+      margin-top: 66px;
+    }
+    .submittedSucessContent {
+      font-size: 20px;
+      font-family: "Microsoft YaHei";
+      font-weight: bold;
+      color: #ff0000;
+      margin-top: 30px;
+    }
+  }
+}
+.submittedSucesBtn {
+  float: left;
+  display: block;
+  width: 96px;
+  height: 23px;
+  background: #ff0000;
+  margin-top: 50px;
+  margin-left: 65px;
+  border-radius: 23px;
+  text-align: center;
+  line-height: 23px;
+  color: white;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: bold;
+  cursor: pointer;
+}
